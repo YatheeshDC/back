@@ -17,7 +17,7 @@ app.use('/api/todolists', todoRoutes);
 app.use('/api/auth', authRoutes); // Assuming you have an auth route
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/ansr', {
+mongoose.connect('mongodb+srv://yatheeshdc:mongo135@cluster0.7pxelau.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
